@@ -1,1 +1,59 @@
+// VARS
+// =====================
+//
+
+$border-color:		#DDD;
+
+
+// IMPORTS
+// =====================
+//
 @import url('../../bower_components/normalize.css/normalize.css');
+
+// FORMS
+// =====================
+//
+.form {
+	margin:20px auto; //temp
+
+	&__login {
+		width:240px;
+		border:1px solid $border-color;
+		background:#fff;
+		border-radius:5px;
+
+		> fieldset {
+			padding:20px;
+			border:none;
+		}
+
+		> footer {
+			background:#fafafa;
+			padding:20px;
+			border-top:1px solid $border-color;
+			box-shadow:inset #fff 0 1px 1px;
+		}
+
+		&--label {
+			display:block;
+			margin: 0 0 10px;
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+
+	}
+
+}
+
+.textbox {
+	background:#fdfdfd;
+	border:1px solid $border-color;
+	display:block;
+	padding:5px 10px;
+	width:100%;
+	box-sizing:border-box;
+	border-radius:5px;
+	box-shadow:inset #fff 0 1px 1px;
+}
