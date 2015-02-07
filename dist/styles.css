@@ -1,0 +1,40 @@
+@import url("../../bower_components/normalize.css/normalize.css");
+.form {
+  margin: 20px auto;
+}
+.form__login {
+  width: 240px;
+  border: 1px solid #DDD;
+  background: #fff;
+  border-radius: 5px;
+}
+.form__login > fieldset {
+  padding: 20px;
+  border: none;
+}
+.form__login > footer {
+  background: #fafafa;
+  padding: 20px;
+  border-top: 1px solid #DDD;
+  box-shadow: inset #fff 0 1px 1px;
+}
+.form__login--label {
+  display: block;
+  margin: 0 0 10px;
+}
+.form__login--label:last-child {
+  margin: 0;
+}
+
+.textbox {
+  background: #fdfdfd;
+  border: 1px solid #DDD;
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: inset #fff 0 1px 1px;
+}
+
+/*# sourceMappingURL=styles.css.map */
