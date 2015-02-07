@@ -1,0 +1,31 @@
+{
+  "name": "LoginForm",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rajeshbhatt/LoginForm",
+  "description": "LoginForm from 365PSD in HTML CSS",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "html5",
+    "css3",
+    "psd",
+    "login",
+    "form"
+  ],
+  "authors": [
+    "RAjBhatt"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2"
+  }
+}
